@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BlinkingLabel"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Hey This Label Blinks."
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # spec.source       = { :git => "https://github.com/praveenkumar8699/BlinkingLabel", :tag => "#{spec.version}" }
-  spec.source       = { :http => 'file:' + __dir__ + "/" }
+  spec.source       = { :git => "https://github.com/praveenkumar8699/BlinkingLabel.git", :tag => "#{spec.version}" }
+  # spec.source       = { :http => 'file:' + __dir__ + "/" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "BlinkingLabel/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
