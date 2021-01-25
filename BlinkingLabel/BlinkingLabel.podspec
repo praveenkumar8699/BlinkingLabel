@@ -81,7 +81,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/praveenkumar8699/BlinkingLabel.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/praveenkumar8699/BlinkingLabel.git", :branch => "main", :tag => "#{spec.version}" }
+  
   # spec.source       = { :http => 'file:' + __dir__ + "/" }
 
 
